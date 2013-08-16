@@ -120,7 +120,7 @@ header {
     }
 
 aside#sidebar {
-    width: 200px;
+    width: 230px;
     padding-left: 20px;
     min-height: 504px;
     float: right;
@@ -392,11 +392,6 @@ footer {
 
 .clearfix {
     display: block;
-}
-
-
-#freebeer {
-    height: 45px;
 }
 
 

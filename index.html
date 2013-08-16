@@ -3,20 +3,19 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome-ie7.css" rel="stylesheet">
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome-ie7.css" rel="stylesheet">
     <![endif]-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
-
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
     <title>DotNetOpenAuth by DotNetOpenAuth</title>
 </head>
 
@@ -25,7 +24,6 @@
         <div class="inner">
             <h1>DotNetOpenAuth</h1>
             <h2>Get started with OpenID, OAuth today!</h2>
-            <a href="https://github.com/DotNetOpenAuth" class="button"><small>Follow me on</small>GitHub</a>
         </div>
     </header>
 
@@ -53,50 +51,64 @@
             </section>
 
             <aside id="sidebar">
-                <div class="alert alert-info" id="freebeer" style="position: relative;">
+                <div class="alert alert-info" id="freebeer">
+                    <img src="images/dnoa-logo_32x32.png" width="32" height="32" align="right" hspace="5"></img>
                     It’s completely free to use on personal and commercial projects.
-                    <img src="images/dnoa-logo_32x32.png" width="32" height="32" style="position: absolute; right: 5px; top: 5px;"></img>
                 </div>
-                <p>
-                    <a class="btn btn-large btn-primary" href="https://nuget.org/packages/DotNetOpenAuth" target="blank">
-                        <i class="icon-cloud-download icon-2x"></i>
-                        Download with NuGet
-                    </a>
+				<h4 style="margin-left:30px;">Install</h4>
+				<p>
+					<a class="btn btn-large btn-primary btn-block" href="https://nuget.org/packages/DotNetOpenAuth" target="blank">
+						<i class="icon-cloud-download icon-2x"></i>
+						Download with NuGet
+					</a>
                 </p>
+				<h4 style="margin-left:30px;"><i class=" icon-book"></i>&nbsp;Learn</h4>
                 <p>
-                    <a class="btn btn-info" style="width: 175px;" href="https://github.com/DotNetOpenAuth/DotNetOpenAuth/wiki" target="blank">
-                        <i class=" icon-book icon-2x"></i>
+                    <a class="btn btn-default btn-block" href="https://github.com/DotNetOpenAuth/DotNetOpenAuth/wiki" target="blank">
                         Documentation
                     </a>
                 </p>
-                <p>
-                    <a class="btn" style="width: 175px;" href="https://sourceforge.net/projects/dnoa/files/latest/download" target="blank">
-                        <i class="icon-download-alt icon-2x"></i>
-                        Download Binaries (v4.3.1)
+				<h4 style="margin-left:30px;">Discuss</h4>
+				<p>
+                    
+                    <a class="btn btn-default btn-block" style="position:relative" href="http://jabbr.net/#/rooms/DotNetOpenAuth" target="_blank">
+                        <i class="icon-group icon-2x" style="float: left;position: absolute;left: 4px;top: 2px;"></i>&nbsp;JabbR.net
                     </a>
                 </p>
-                <p>
-                    <a class="btn" style="width: 175px;" href="http://sourceforge.net/projects/dnoa/files/releases/v4.3/v4.3.1/DotNetOpenAuth-4.3.1.13153-samples.7z/download" target="blank">
-                        <i class="icon-download-alt icon-2x"></i>
-                        Download Samples (v4.3.1)
-                    </a>
+				<p>
+                    <div class="span3">
+					<a class="btn btn-default btn-block" style="position:relative" href="http://stackoverflow.com/questions/tagged/dotnetopenauth" target="_blank">
+						<i class="icon-stackexchange icon-2x" style="float: left;position: absolute;left: 4px;top: 2px;"></i>&nbsp;StackOverflow
+					</a>
+				</div>
                 </p>
-                <div class="row-fluid">
-                    <div class="span6">
-                        <a class="btn " href="https://github.com/DotNetOpenAuth/DotNetOpenAuth" target="blank">
-                            <i class="icon-github icon-2x"></i>
-                            <br />
-                            Get the Source
-                        </a>
-                    </div>
-                    <div class="span6">
-                        <a class="btn " href="http://jabbr.net/#/rooms/DotNetOpenAuth" target="_blank">
-                            <i class="icon-group icon-2x"></i>
-                            <br />
-                            Chat on JabbR.net
-                        </a>
-                    </div>
-                </div>
+				<p>
+                    <div class="span3">
+					<a class="btn btn-default btn-block" style="position:relative" href="https://groups.google.com/forum/#!forum/dotnetopenid" target="_blank">
+						<i class="icon-envelope icon-2x" style="float: left;position: absolute;left: 4px;top: 2px;"></i>&nbsp;Google Groups
+					</a>
+				</p>
+				<h6 style="margin-left:30px;"><i class="icon-download-alt"></i>&nbsp;Downloads</h6>
+				<p>
+					<a class="btn btn-default btn-block" style="position:relative" href="https://github.com/DotNetOpenAuth/DotNetOpenAuth" target="blank">
+						<i class="icon-github icon-2x" style="float: left;position: absolute;left: 4px;top: 2px;"></i>&nbsp;Get the Source
+					</a>
+				</p>
+				<p>
+					<a class="btn btn-default btn-block" style="position:relative" href="https://github.com/DotNetOpenAuth/DotNetOpenAuth.Samples" target="blank">
+						<i class="icon-github icon-2x" style="float: left;position: absolute;left: 4px;top: 2px;"></i>&nbsp;Samples
+					</a>
+				</p>				
+				<p>
+					<a class="btn btn-default btn-xs btn-block" href="https://sourceforge.net/projects/dnoa/files/latest/download" target="blank">
+						Binaries
+					</a>
+				</p>
+				<p>
+					<a class="btn btn-default btn-xs btn-block" href="http://sourceforge.net/projects/dnoa/files/releases/v4.3/v4.3.1/DotNetOpenAuth-4.3.1.13153-samples.7z/download" target="blank">
+						Test Stubs
+					</a>
+				</p>
             </aside>
         </div>
     </div>
